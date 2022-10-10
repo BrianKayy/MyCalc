@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    position: relative;
+    top: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .calculator{
+    display: grid;
+    justify-content: center;
+    width: 350px;
+    height: 400px;
+    background-color: #0f292f;
+    border: 4px solid #0f292f;
+    box-shadow: 2px 3px 2px 3px #cb2d6f ;
+    border-radius: 18px;
+}
+
+.calculator .display{
+    background-color: #14a098;
+    width: 345px;
+    height: 120px;
+    display: grid;
+    justify-content: right;
+    position: relative;
+    right: 0;
+    right: 0;
+    border-radius: 10px;
+}
+.calculator .display .old{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    position: relative;
+    right: 5px;
+    width: 335px;
+    height: 50px;
+    color: #fff;
+    font-size: 18px;
+
+}
+
+
+.calculator .display .new{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    position: relative;
+    right: 5px;
+    
+    width: 335px;
+    height: 68px;
+    color: #fff;
+    font-size: 25px;
+
+}
+
+.calculator .mytable{
+    position: relative;
+    top: 0;
+    background-color: #0f292f;
+}
+
+
+.calculator .mytable #num{
+    background: #fff;
+    width: 80px;
+    height: 45px;
+    border: none;
+    font-size: 25px;
+    color: #000;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+
+.calculator .mytable #long{
+    background: #fff;
+    column-span: all;
+     width: 100%;
+     border-radius: 8px;
+    height: 45px;
+    border: none;
+    font-size: 25px;
+    color: #000;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
